@@ -1,0 +1,161 @@
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.green-text {
+    color: #32ad66;
+}
+
+.selected{
+    background-color: #32ad66;
+    color: white;
+}
+
+.navbar
+{
+	width:300px;
+    background: #333;
+    height:100vh;
+    position: fixed;
+}	
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-header
+{
+    float:none !important;
+    padding: 1em;
+}
+
+.navbar .nav > li > a {
+    text-shadow: none;
+    color: #32ad66;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+    text-shadow: none;
+    color: white;
+}
+
+.navbar-header {
+    padding: 4em 5em 2em 5em;
+    margin-left: 2em;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: #32ad66;
+    color: white;
+}
+
+.dashboard h1, .dashboard .info {
+    margin-top: 2em;
+    margin-left: 9em;
+} 
+
+.d_search {
+    width: 30em;
+    margin-top: 4.3em;
+}
+
+.submit {
+    margin-top: 3.5em;
+}
+
+.btn {
+    background-color: #333;
+    background-image: none; 
+    color: white;
+    text-shadow: none;
+}
+
+.dashboard .btn:focus {
+    background-color: #333;
+    color: white;
+    
+}
+
+.dashboard .btn:hover  {
+    background-color: #32ad66;
+    color: white;
+}
+
+.dashboard .search, .about .info {
+    margin-left: 25em;
+}
+
+.table {
+    margin-left: 33em;
+    width: 50em;
+}
+
+tr:hover {
+    background-color: #32ad66 ;
+    color: white;
+}
+
+.thead-inverse {
+    background-color: #32ad66 !important; 
+    color: white;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #32ad66;
+  outline: 0 none;
+}
+
+.tools {
+    margin-left: 66.5em;
+    margin-bottom: 5em;
+}
+
+.table input {
+    width: 8em;
+    height: 1em;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.insert {
+    padding: .5em .5em .5em .5em;
+    font-size: 12px;
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.insert:hover, .insert:focus {
+    background-color: #32ad66;
+    color: white;
+}
+
+.inputText {
+    padding-left: 3px;
+}
+
+

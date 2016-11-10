@@ -1,0 +1,26 @@
+.ui-widget-header {
+    border: 0;
+    background: none;
+}
+
+.ui-corner-all, .ui-corner-bl {
+    border-radius: 0;
+}
+
+.ui-widget-content {
+    background: white;
+    color: #666;
+    margin-left: 2em;
+}
+
+#dialog {
+    display: none;
+}
+
+.ui-state-hover {
+    background: none;
+}
+
+a {
+    background: none;
+}
